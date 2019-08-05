@@ -11,8 +11,7 @@ class Cart:
     def __init__(self):
         self.__Cart = []
         self.__Total = 0
-
-    
+   
     def addProd(self, new): #Adding Product
         self.__Cart.append(new)
         print('Product has been added successfully!')
